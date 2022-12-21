@@ -7,7 +7,7 @@ public class Solution {
     static char symbol;
 
     public static String validation(String string) throws Exception {
-        if (string.matches("^[0-9\\s*]{1,2}[\\+|\\-|\\/|\\*][\\s*0-9]{1,2}")) {
+        if (string.matches("^[0-9\\s*]{1,3}[\\+|\\-|\\/|\\*][\\s*0-9]{1,3}")) {
             return "arab";
 //        } else if (string.matches("^[IVX\\s*]+[\\+|\\-|\\/|\\*][\\s*IVX]+")) {
 //            return "rome";
